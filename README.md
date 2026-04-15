@@ -11,7 +11,7 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
-[Live Demo](#) · [API Docs](#)
+<!-- [Live Demo](#) · [API Docs](#) -->
 
 </div>
 
@@ -23,7 +23,7 @@ QR Menu is a multi-tenant SaaS platform that replaces physical menus with a digi
 
 The platform supports multiple restaurants from a single deployment, with a platform owner dashboard for centralized restaurant and user management. Multi-tenancy is enforced through a middleware pipeline, role-based access spans three user roles, and bilingual (AR/EN) support is built into every layer — from validation rules to error messages.
 
----
+<!-- ---
 
 ## Screenshots
 
@@ -32,7 +32,7 @@ The platform supports multiple restaurants from a single deployment, with a plat
 | Platform Dashboard | ![Platform Dashboard](docs/screenshots/platform-dashboard.png) |
 | Owner Admin Panel | ![Owner Panel](docs/screenshots/owner-panel.png) |
 | Menu Management | ![Menu Management](docs/screenshots/menu-management.png) |
-| Customer Menu | ![Customer Menu](docs/screenshots/customer-menu.png) |
+| Customer Menu | ![Customer Menu](docs/screenshots/customer-menu.png) | -->
 
 ---
 
