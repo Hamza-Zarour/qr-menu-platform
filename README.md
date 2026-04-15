@@ -292,6 +292,6 @@ php artisan test --filter=test_login_returns_token_with_valid_credentials
 
 ## Author
 
-**Hamza Zarour** · [GitHub](https://github.com/hamzazarour) · [LinkedIn](https://www.linkedin.com/in/-hamza-zarour)
+**Hamza Zarour** · [GitHub](https://github.com/Hamza-Zarour) · [LinkedIn](https://www.linkedin.com/in/-hamza-zarour)
 
 ---
