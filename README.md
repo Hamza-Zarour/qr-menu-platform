@@ -234,14 +234,14 @@ All routes are versioned under `/api/v1`. Full list in `routes/api_v1.php`.
 
 | Method | Endpoint | Auth | Description |
 |--------|----------|------|-------------|
-| POST | `/v1/auth/register` | ❌ | Register — 3 paths: owner, owner+restaurant, staff via invite token |
-| POST | `/v1/auth/login` | ❌ | Login, returns Bearer token |
-| GET | `/v1/menus/public?slug=` | ❌ | Restaurant landing — info + active menus |
-| GET | `/v1/categories/public?slug=&menu_id=` | ❌ | Public menu view — active categories + items |
-| GET | `/v1/items` | ✅ Owner | List items with search/filter/paginate |
-| POST | `/v1/menus/{id}/items` | ✅ Owner | Attach item to menu with sort order |
-| PATCH | `/v1/categories/reorder` | ✅ Owner | Drag-and-drop category reorder |
-| GET | `/v1/dashboard/stats` | ✅ Platform | Overview stats + 12-month registrations array |
+| POST | `/v1/auth/register` | - | Register — 3 paths: owner, owner+restaurant, staff via invite token |
+| POST | `/v1/auth/login` | - | Login, returns Bearer token |
+| GET | `/v1/menus/public?slug=` | - | Restaurant landing — info + active menus |
+| GET | `/v1/categories/public?slug=&menu_id=` | - | Public menu view — active categories + items |
+| GET | `/v1/items` | Owner | List items with search/filter/paginate |
+| POST | `/v1/menus/{id}/items` | Owner | Attach item to menu with sort order |
+| PATCH | `/v1/categories/reorder` | Owner | Drag-and-drop category reorder |
+| GET | `/v1/dashboard/stats` | Platform | Overview stats + 12-month registrations array |
 
 ---
 
